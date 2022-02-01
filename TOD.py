@@ -54,11 +54,11 @@ _H_ = "\x1b[0;92m" # Hijau
 _U_ = "\x1b[0;95m" # Ungu
 
 ### Logo
-_logo_line_1_ = ('%s ____  _                           '%(_P_))
-_logo_line_2_ = ('%s|_  // | %s┌─────────────────────────┐'%(_P_,_U_))
-_logo_line_3_ = ('%s / / | | %s│   %s• Code By Zez •   %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_4_ = ('%s/___||_| %s│ %sGithub.com/Zez11 %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_5_ = ('%s  Genzi33 X Zez11 2021└─────────────────────────┘'%(_U_))
+_logo_line_1_ = ('%s|__  / ____| __  / ___ |  _ \     / \   / ___ |  |/  /'%(_P_))
+_logo_line_2_ = ('%s / /|  _|   / / |   | |_) |  / _ \| |   | /%s Zez11'%(_P_,_U_))
+_logo_line_3_ = ('%s / /_| |___ / /| |___|  _ <  / ___ \ |___| . \ %s  %s• Code By Zez •   %s'%(_P_,_U_,_P_,_U_))
+_logo_line_4_ = ('%s/____|_____/____\____|_| \_\/_/   \_\____|_|\_\ %s│ %sGithub.com/Zez11 %s│'%(_P_,_U_,_P_,_U_))
+_logo_line_5_ = ('%s  Genzi33 X Zez11 2021'%(_U_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
